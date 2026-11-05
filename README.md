@@ -1,4 +1,4 @@
 Group members:
-Arseniy Lugovoy
-Diego Martinez
-Kevin Yichen Zhang
+Arseniy Lugovoy<br>
+Diego Martinez<br>
+Kevin Yichen Zhang<br>
