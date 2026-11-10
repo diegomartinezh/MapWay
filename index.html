@@ -58,7 +58,7 @@
 			for (let i = 0; i < fdata.length; i++)
 			{
 				markers.push(new Marker([fdata[i].LATITUD, fdata[i].LONGITUD], {icon: WaterIcon}).addTo(map));
-				markers[i].bindPopup(fdata[i].NOM_VIA + "<br>Test").openPopup();
+				markers[i].bindPopup(fdata[i].NOM_VIA + "<br>Test");
 			}
 
 			// Marker de Prueba. Si este no aparece, algo ha ido mal
