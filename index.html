@@ -6,9 +6,6 @@
 		<title>Atelier Diego Martinez</title>
 		<link rel="stylesheet" href="styles.css">
 		<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@2.0.0-beta.2/dist/leaflet.css">
-		<script type="importmap">
-			{"imports": {"leaflet": "https://cdnjs.cloudflare.com/ajax/libs/leaflet/1.9.4/leaflet.js"}}
-		</script>
 	</head>
 	
 	<body>
@@ -19,8 +16,8 @@
 					<div id="map" style="height: 620px"></div>
 					<script type="module">
 
-						import {LeafletMap, TileLayer, Marker, Circle, Polygon} from 'leaflet';
-						import 'leaflet/styles.css';
+						import {LeafletMap, TileLayer, Marker, Circle, Polygon} from 'https://cdn.jsdelivr.net/npm/leaflet@2.0.0-beta.2/dist/leaflet.js';
+						//import 'leaflet/styles.css';
 
 						const map = new LeafletMap('map').setView([40.440486, -3.627189], 100);
 
